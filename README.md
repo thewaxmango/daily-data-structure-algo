@@ -6,4 +6,4 @@ You can find the implementations in /files.
 2. Implicit Segment Tree
 3. Treap
 4. Ternary Search (a bit of a cheat day)
-5. 
+5. Interval Heap
