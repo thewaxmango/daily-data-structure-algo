@@ -7,7 +7,7 @@ class Palindromic_Tree:
         self.len: list[int] = [0] * length
         self.par: list[int] = [0] * length
         self.link: list[int] = [0] * length
-        self.to: list[int] = [[] for _ in range(length)]
+        self.to: list[list[int]] = [[] for _ in range(length)]
         self.link[0] = 1
         self.len[1] = -1
         self.n: int = 1
@@ -25,8 +25,8 @@ class Palindromic_Tree:
                 return cu >> 8
         return 0
 
-    def add_letter(self, c: int):
-        c = ord(c) - 97
+    def add_letter(self, ch: str):
+        c = ord(ch) - 97
         self.s[self.n] = c
         self.n += 1
         self.last = self.get_link(self.last)
