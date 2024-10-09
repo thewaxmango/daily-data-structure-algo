@@ -13,3 +13,4 @@ You can find the implementations in /files.
 5. ✅ Interval Heap
 6. ✅ Palindromic Tree
 7. 🟥 2D Segment Tree w/ Implicit Segment Tree
+8. 🟥 2-SAT
